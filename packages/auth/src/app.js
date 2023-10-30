@@ -22,7 +22,7 @@ export default ({ history, onSignIn }) => {
               <Signin onSignIn={onSignIn}></Signin>
             </Route>
             <Route path="/auth/signup">
-              <Signin onSignIn={onSignIn}></Signin>
+              <Signup onSignIn={onSignIn}></Signup>
             </Route>
           </Switch>
         </Router>
