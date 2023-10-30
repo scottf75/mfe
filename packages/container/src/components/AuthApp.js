@@ -18,8 +18,9 @@ export default ({ onSignIn }) => {
       },
       onSignIn,
     });
+
     history.listen(onParentNavigate);
   }, []);
 
-  return <div ref={ref}></div>;
+  return <div ref={ref} />;
 };
